@@ -12,6 +12,7 @@ public class MyServlet02 extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("7777");
+        System.out.println("8888");
         resp.getWriter().write("dasdasdas");
     }
 }
